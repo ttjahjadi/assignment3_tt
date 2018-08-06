@@ -50,6 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
+     background: #eceeee;
 }
 
 h1{
@@ -65,6 +66,7 @@ h2{
   /* letter-spacing: 0.05em; */
   color: #2b4658;
   margin-bottom: 25px;
+  line-height: 42px;
 }
 
 ul{
@@ -79,7 +81,7 @@ ul{
 
 /* Center the container */
 #container {
-  width: 1100px;
+  width: 1040px;
   margin: auto;
   padding: 0 20px;
 }
@@ -152,16 +154,103 @@ nav ul li a{
 
 /* Article styling */
 
+section.left {
+  width: 700px;
+  padding: 0 20px;
+}
+
+.left article{
+  display: flex;
+  flex-direction: column;
+  /* width: 70%; */
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #2b4658;
+}
+
 .left article h2{
   font-size: 40px;
   font-weight: 600;
 }
 
 .left article span{
-  font-size: 56px;
+  /* font-size: 56px;
+  font-weight: 700; */
+  color: #676667;
+  float: left;
+  font-size: 75px;
+  line-height: 25px;
+  padding-top: 14px;
+  padding-right: 9px;
+  padding-left: 3px;
+  font-weight: 600;
+}
+
+.left article p{
+  margin:  15px 0;
+  font-size: 1.4rem;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.left article a{
+  display: flex;
+  justify-content: flex-end;
+  color: #2b4658;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Aside styling */
+
+section.right {
+  width: 240px;
+  padding: 0 20px;
+}
+
+aside div{
+  margin-bottom: 25px;
+}
+
+.categories{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.categories ul{
+  list-style: none;
+  margin-left: 5px;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.categories h2{
+  margin-bottom: 15px;
+}
+
+.blurb h2{
+  margin-bottom: 15px;
+}
+
+.blurb p{
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.blurb a{
+  color: #2b4658;
+  font-size: 1.4rem;
+  text-decoration: none;
   font-weight: 700;
 }
 
+.ads{
+  background: #fff;
+  height: 200px;
+  text-align: center;
+}
 
 /* Signup button layout and styling */
 .sign-up{
