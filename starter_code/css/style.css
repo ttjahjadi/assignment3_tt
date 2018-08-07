@@ -80,7 +80,8 @@ ul{
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
+  display: flex;
   width: 1040px;
   margin: auto;
   padding: 0 20px;
@@ -118,7 +119,7 @@ header {
 }
 
 .logo h1{
-  padding-left: 70px;
+  /* padding-left: 70px; */
   width: 30%;
   color: #fdfeff;
   text-align: left;
@@ -134,7 +135,7 @@ nav ul{
   flex-direction: row;
   align-items: center;
   height: 100px;
-  padding-right: 70px;
+  /* padding-right: 70px; */
   list-style: none;
   margin: 0;
 }
